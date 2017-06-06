@@ -538,6 +538,7 @@
 <script>
 keys = []
 secret = "65,85,84,84,65,74,65,83,85,67,75,83"
+sekret = "71,65,87,69,83,79,77,69,66,79,84"
 window.addEventListener("keydown", function(e) {
 	if(e.keyCode!=16) {
 		keys.push(e.keyCode);
@@ -549,6 +550,9 @@ window.addEventListener("keydown", function(e) {
 		$("img").attr("src", "https://discordapp.com/api/users/108892284119977984/avatars/e080a9e81a57f70ba4864099db84548f.jpg")
 		$(".tag").html("Owner")
 		$(".tag").addClass("is-danger")		
+	} else if (keys.toString().indexOf(sekret)>-1) {
+		keys = [];
+		window.location.href = "https://auttaja.us"
 	}
 }, true);
 </script>
