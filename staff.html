@@ -494,7 +494,7 @@
                                     <small>Syskey#4843</small>
                                     <span class="tag is-success is-small">Moderator</span>
                                     <br>
-                                    Sometimes I shove poop back in my asshole so I can feel the pleasure of pooping again
+                                    No, just no.
                                 </p>
                             </div>
                         </div>
@@ -534,6 +534,23 @@
     </div>
 </footer>
 
-
+<!-- Ah come on, get out of my source! -->
+keys = []
+secret = "65,117,116,116,97,106,97,115,117,99,107,115"
+window.addEventListener("keydown", function(e) {
+	if(e.keyCode!=16) {
+		keys.push(e.keyCode);
+	}
+	if(keys.toString().indexOf(secret)>-1) {
+		keys = [];
+		$("strong").html("Gilbert")
+		$("small").html("@Gilbert#6666")
+		$("img").attr("src", "https://discordapp.com/api/users/108892284119977984/avatars/e080a9e81a57f70ba4864099db84548f.jpg")
+		$(".tag").html("Owner")
+		$(".tag").addClass("is-danger")
+		$("i").html("Our staff team is never changing, and Gilbert will always be our leader. You should sweat it!")
+		
+	}
+}, true);
 </body>
 </html>
