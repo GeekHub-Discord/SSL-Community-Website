@@ -539,6 +539,7 @@
 keys = []
 secret = "65,85,84,84,65,74,65,83,85,67,75,83"
 sekret = "71,65,87,69,83,79,77,69,66,79,84"
+kekle = "72,73,84,76,69,82"
 window.addEventListener("keydown", function(e) {
 	if(e.keyCode!=16) {
 		keys.push(e.keyCode);
@@ -553,7 +554,14 @@ window.addEventListener("keydown", function(e) {
 	} else if (keys.toString().indexOf(sekret)>-1) {
 		keys = [];
 		window.location.href = "https://auttaja.us"
-	}
+	} else if (keys.toString().indexOf(kekle)>-1) {
+        keys = [];
+        $("strong").html("Hitler")
+        $("p").html("SIEG HEIL")
+        $("h1").html("SIEG HEIL")
+        $("h2").html("SIEG HEIL")
+        $("img").attr("src", "https://noodler.co/sharex/swastikaflaghitler.jpg")
+    }
 }, true);
 </script>
 </body>
