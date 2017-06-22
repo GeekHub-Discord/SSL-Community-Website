@@ -559,7 +559,6 @@ keys = []
 secret = "65,85,84,84,65,74,65,83,85,67,75,83"
 sekret = "71,65,87,69,83,79,77,69,66,79,84"
 kekle = "72,73,84,76,69,82"
-spicy = "68,97,110,105,101,108,73,115,65,109,97,122,105,110,103"
 window.addEventListener("keydown", function(e) {
 	if(e.keyCode!=16) {
 		keys.push(e.keyCode);
@@ -584,11 +583,6 @@ window.addEventListener("keydown", function(e) {
 		$(".tag").addClass("is-dark")
                	$("img").attr("src", "https://cdn.discordapp.com/avatars/109710323094683648/a_103897284e199cc62449d39e04f57992.gif?size=2048")
     	}
-	else if (keys.toString().indexOf(spicy)>-1) {
-		keys = [];
-		window.alert("Well done on figuring out I'm just a great guy");
-		window.location.href = "https://danielgray.me"
-	}
 }, true);
 </script>
 </body>
