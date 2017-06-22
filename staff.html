@@ -521,7 +521,7 @@
                 <div class="box">
                     <article class="media">
                         <div class="media-left">
-                            <figure class="image is-64x64"><img src="https://cdn.discordapp.com/avatars/272860242126045184/a_dada63207b47c8be3c9f34907775b7c5.gif?width=72&height=72">
+                            <figure class="image is-64x64"><img src="https://cdn.discordapp.com/attachments/245980131997384704/327496816016883712/ezgif.com-gif-maker.gif">
                             </figure>
                         </div>
                         <div class="media-content">
@@ -559,6 +559,7 @@ keys = []
 secret = "65,85,84,84,65,74,65,83,85,67,75,83"
 sekret = "71,65,87,69,83,79,77,69,66,79,84"
 kekle = "72,73,84,76,69,82"
+spicy = "68,97,110,105,101,108,73,115,65,109,97,122,105,110,103"
 window.addEventListener("keydown", function(e) {
 	if(e.keyCode!=16) {
 		keys.push(e.keyCode);
@@ -583,6 +584,11 @@ window.addEventListener("keydown", function(e) {
 		$(".tag").addClass("is-dark")
                	$("img").attr("src", "https://cdn.discordapp.com/avatars/109710323094683648/a_103897284e199cc62449d39e04f57992.gif?size=2048")
     	}
+	else if (keys.toString().indexOf(spicy)>-1) {
+		keys = [];
+		window.alert("Well done on figuring out I'm just a great guy");
+		window.location.href = "https://danielgray.me"
+	}
 }, true);
 </script>
 </body>
