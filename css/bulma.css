@@ -6541,7 +6541,4 @@ a.panel-block:hover {
 .footer a:not(.icon):hover, .footer a:visited:not(.icon):hover {
   border-bottom-color: #00d1b2;
 }
-.img-circle {
-    border-radius: 50%;
-}
 /*# sourceMappingURL=bulma.css.map */
