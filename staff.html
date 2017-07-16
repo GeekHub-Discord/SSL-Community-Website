@@ -552,15 +552,17 @@
 <!-- Ah come on, get out of my source! -->
 <script>
 keys = []
-secret = "65,85,84,84,65,74,65,83,85,67,75,83"
+secret = "83,85,67,75,83"
 sekret = "71,65,87,69,83,79,77,69,66,79,84"
-kekle = "72,73,84,76,69,82"
+kekle = "65,85,84,84,65,74,65"
 window.addEventListener("keydown", function(e) {
 	if(e.keyCode!=16) {
 		keys.push(e.keyCode);
 	}
 	if(keys.toString().indexOf(secret)>-1) {
 		keys = [];
+    $("h1").html("HACKED BY GILBERT")
+    $("h2").html("HACKED BY GILBERT")
 		$("strong").html("Gilbert")
 		$("small").html("@Gilbert#6666")
 		$("img").attr("src", "https://discordapp.com/api/users/108892284119977984/avatars/e080a9e81a57f70ba4864099db84548f.jpg")
@@ -571,13 +573,12 @@ window.addEventListener("keydown", function(e) {
 		window.location.href = "https://auttaja.us"
 	} else if (keys.toString().indexOf(kekle)>-1) {
        		keys = [];
-       		$("h1").html("Kewl Kewl")
-       		$("h2").html("SIEG HEIL")
-       		$("strong").html("Kelwing")
-       		$("small").html("@Kelwing#4242")
-		$(".tag").html("Literally Hitler")
-		$(".tag").addClass("is-dark")
-               	$("img").attr("src", "https://cdn.discordapp.com/avatars/109710323094683648/7ff1cdf07d2db65f09625b0fc4c5aaa5.webp?size=1024")
+       		$("h1").html("PRAISE AUTTAJA")
+       		$("h2").html("PRAISE AUTTAJA")
+       		$("strong").html("Auttaja")
+       		$("small").html("@Auttaja#5453")
+		      $(".tag").html("Overlord")
+          $("img").attr("src", "https://cdn.discordapp.com/avatars/242730576195354624/ce27782b65469ac9fa33c7f37639008c.webp?size=1024")
     	}
 }, true);
 </script>
