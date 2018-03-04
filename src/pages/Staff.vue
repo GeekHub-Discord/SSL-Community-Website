@@ -1,0 +1,404 @@
+<template>
+    <div>
+        <section class="hero is-fullheight is-dark header-image">
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <h1 class="title is-1">
+                        <strong>SSL Community</strong>
+                    </h1>
+                    <h2 class="subtitle is-4">
+                        <span>Our amazing staff team</span>
+                    </h2>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+          <div class="container has-text-centered box">
+            <div class="heading">
+              <h1 class="title">Owners</h1>
+              <h2 class="subtitle">Keeping the ball rolling!</h2>
+            <br/>
+            </div>
+            <div class="columns">
+              <div class="column">
+                <img width="125px" height="125px" class="img-circle" src="./../assets/profile/lewis.png">
+                <br/>
+                <span class="tag is-small is-danger">Owner</span>
+                <br/>
+                <strong>Lewis</strong>
+                <small>@Lewis's Tech#0019</small>
+                <p>
+                  Hi madarchods it's Levis here. I am the serwer ovner at SSL and I TRY to keep it
+                  running smoothly.
+                </p>
+              </div>
+              <div class="column">
+                <img width="125px" height="125px" class="img-circle" src="./../assets/profile/amy.png">
+                <br/>
+                <span class="tag is-small is-danger">Owner</span>
+                <br/>
+                <strong>Amy</strong>
+                <small>@AtotheK#5662</small>
+                <p>
+                  SSL O.G. ACTUALLY keeps it running smoothly (with help). Counsellor. Mother of 10,000 brats and counting. Roastmaster. Life coach. Don’t cut the red wire. Nobody ever won that battle.
+                </p>
+              </div>
+              <div class="column">
+                <img width="125px" height="125px" class="img-circle" src="./../assets/profile/hightek.png">
+                <br/>
+                <span class="tag is-small is-danger">Owner</span>
+                <br/>
+                <strong>HighTek</strong>
+                <small>@HighTek#2259</small>
+                <p>
+                  Hmmm... vanished... poof... Just like a fart on a windy day.
+                </p>
+              </div>
+              <div class="column">
+                <img width="125px" height="125px" class="img-circle" src="./../assets/profile/kelwing.png">
+                <br/>
+                <span class="tag is-small is-danger">Owner</span>
+                <br/>
+                <strong>Jacob</strong>
+                <small>@Kelwing#0001</small>
+                <p>
+                  Auttaja bot maintainer, voice of reason, Kai's Soulmate
+                </p>
+              </div>
+              <div class="column">
+                <img width="125px" height="125px" class="img-circle" src="./../assets/profile/shaun.png">
+                <br/>
+                <span class="tag is-small is-danger">Owner</span>
+                <br/>
+                <strong>Shaun</strong>
+                <small>@XeliteXirish#4468</small>
+                <p>
+                  I help manage parts of SSL and I do programming stuffs and stick them on my <a href="https://www.shaunoneill.com">website</a>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="container has-text-centered box">
+            <div class="heading">
+              <h1 class="title">Management</h1>
+              <h2 class="subtitle">The behind-the-scenes guys</h2>
+            <br/>
+            </div>
+            <div class="columns">
+              <div class="column">
+                <div class="box">
+                  <article class="media">
+                    <div class="media-left">
+                      <figure class="image is-64x64"><img class="img-circle" src="./../assets/profile/arturo.png"></figure>
+                    </div>
+                    <div class="media-content">
+                      <div class="content">
+                        <p>
+                          <strong>Arturo</strong>
+                          <small>@Arturo#0001</small>
+                          <span class="tag is-info is-small">Administrator</span>
+                          <br/>
+                          Vill correct each and eweryone
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div class="column">
+                <div class="box">
+                  <article class="media">
+                    <div class="media-left">
+                      <figure class="image is-64x64"><img class="img-circle" src="./../assets/profile/gg.png"></figure>
+                    </div>
+                    <div class="media-content">
+                      <div class="content">
+                        <p>
+                          <strong>Gilbert</strong>
+                          <small>@GG142#1420</small>
+                          <span class="tag is-info is-small">Administrator</span>
+                          <br/>
+                          You won't see me, but you can see my work! I develop multiple SSL applications and contribute heavily to it's structure and policy.
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column">
+                <div class="box">
+                  <article class="media">
+                    <div class="media-left">
+                      <figure class="image is-64x64"><img class="img-circle" src='./../assets/profile/vlad.png'></figure>
+                    </div>
+                    <div class="media-content">
+                      <div class="content">
+                        <p>
+                          <strong>Vlad</strong>
+                          <small>@King - Vlad#8339</small>
+                          <span class="tag is-success is-small">Manager</span>
+                          <br/>
+                            Helps with GAB development
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div class="column">
+                <div class="box">
+                  <article class="media">
+                    <div class="media-left">
+                      <figure class="image is-64x64"><img class="img-circle" src='./../assets/profile/tornado.gif'></figure>
+                    </div>
+                    <div class="media-content">
+                      <div class="content">
+                        <p>
+                          <strong>Lewis</strong>
+                          <small>@Tornado#0001</small>
+                          <span class="tag is-success is-small">Manager</span>
+                          <br/>
+                            Fuck. Erm...
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+            <!--/div-->
+          <!--/div -->
+        </section>
+        <section class="section">
+          <div class="container has-text-centered box">
+            <div class="heading">
+              <h1 class="title">Moderation</h1>
+              <h2 class="subtitle">The front line of defense</h2>
+            <br/>
+            </div>
+            <div class="columns">
+              <div class="column">
+                <div class="box">
+                  <article class="media">
+                    <div class="media-left">
+                      <figure class="image is-64x64"><img class="img-circle" src='./../assets/profile/danielgray.png'></figure>
+                    </div>
+                    <div class="media-content">
+                      <div class="content">
+                        <p>
+                          <strong>Daniel Gray</strong>
+                          <small>@Daniel | danielgray.me#6125</small>
+                          <span class="tag is-warning is-small">Supervisor</span>
+                          <br/>
+                          Hey there! I'm the best supervisor over at SSL and I love to make things.
+                          If you want me or to want to see my work hit me up on discord <a href="https://danielgray.me" target="_blank">or my website</a>
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div class="column">
+                <div class="box">
+                  <article class="media">
+                    <div class="media-left">
+                      <figure class="image is-64x64"><img class="img-circle" src='./../assets/profile/nikolas.gif'></figure>
+                    </div>
+                    <div class="media-content">
+                      <div class="content">
+                        <p>
+                          <strong>Nikolas</strong>
+                          <small>@Lienus#1337 </small>
+                          <span class="tag is-warning is-small">Supervisor</span>
+                          <br/>
+                            Oh mah lawd, I tried to think of something original but I am too rushed to do so. Deal with it.
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column">
+                <div class="box">
+                  <article class="media">
+                    <div class="media-left">
+                      <figure class="image is-64x64"><img class="img-circle" src="./../assets/profile/tom.png"></figure>
+                    </div>
+                    <div class="media-content">
+                      <div class="content">
+                        <p>
+                          <strong>Tom</strong>
+                          <small>@Noodles#1939</small>
+                          <span class="tag is-warning is-small">Supervisor</span>
+                          <br/>
+                          Super spekel noodle man!
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div class="column">
+                <div class="box">
+                  <article class="media">
+                    <div class="media-left">
+                      <figure class="image is-64x64"><img class="img-circle" src='./../assets/profile/codfish.png'></figure>
+                    </div>
+                    <div class="media-content">
+                      <div class="content">
+                        <p>
+                          <strong>Luca</strong>
+                          <small>@Codfish246#6667</small>
+                          <span class="tag is-success is-small">Moderator</span>
+                          <br/>
+                            Hey I’m Codfish, new moderator here at SSL, hope to see ye around xd
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column">
+                <div class="box">
+                  <article class="media">
+                    <div class="media-left">
+                      <figure class="image is-64x64"><img class="img-circle" src='./../assets/profile/danieltech.png'></figure>
+                    </div>
+                    <div class="media-content">
+                      <div class="content">
+                        <p>
+                          <strong>Daniel Georgiou</strong>
+                          <small>@Daniel Georgiou#0001</small>
+                          <span class="tag is-success is-small">Moderator</span>
+                          <br/>
+                            Just make up something random idk lol
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div class="column">
+                <div class="box">
+                  <article class="media">
+                    <div class="media-left">
+                      <figure class="image is-64x64"><img class="img-circle" src='./../assets/profile/krer.png'></figure>
+                    </div>
+                    <div class="media-content">
+                      <div class="content">
+                        <p>
+                          <strong>Krer Grimpaw</strong>
+                          <small>@Krer Grimpaw#5387</small>
+                          <span class="tag is-success is-small">Moderator</span>
+                          <br/>
+                            If it's not broken, it may soon be!
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column">
+                <div class="box">
+                  <article class="media">
+                    <div class="media-left">
+                      <figure class="image is-64x64"><img class="img-circle" src='./../assets/profile/samsung.gif'></figure>
+                    </div>
+                    <div class="media-content">
+                      <div class="content">
+                        <p>
+                          <strong>Winsposure</strong>
+                          <small>@samsungrocks10#0001</small>
+                          <span class="tag is-success is-small">Moderator</span>
+                          <br/>
+                            Don't forget me
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div class="column">
+                <div class="box">
+                  <article class="media">
+                    <div class="media-left">
+                      <figure class="image is-64x64"><img class="img-circle" src='./../assets/profile/cringyadam.png'></figure>
+                    </div>
+                    <div class="media-content">
+                      <div class="content">
+                        <p>
+                          <strong>Adam</strong>
+                          <small>@Cringy Adam#4611</small>
+                          <span class="tag is-primary is-small">Junior Moderator</span>
+                          <br/>
+                            I may not be the smartest or the prettiest or the strongest or the.. shit I forgot where I was going with that..
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column">
+                <div class="box">
+                  <article class="media">
+                    <div class="media-left">
+                      <figure class="image is-64x64"><img class="img-circle" src='./../assets/profile/jj.png'></figure>
+                    </div>
+                    <div class="media-content">
+                      <div class="content">
+                        <p>
+                          <strong>JJ</strong>
+                          <small>@Jj The Husky#9999</small>
+                          <span class="tag is-primary is-small">Junior Moderator</span>
+                          <br/>
+                            The best junior moderator out there!
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+        </section>
+    <div>
+<template>
+
+<script>
+export default {
+  name: 'Staff',
+  metaInfo: {
+    name: 'Staff'
+  },
+  data () {
+    moderation: null,
+    management: null,
+    owners: null,
+    error: null
+  },
+  mounted () {
+    axios({
+      method: 'GET',
+      url: 'https://sslapi.dixionary.com'
+    }).then(res => {
+        this.moderation = res.data.moderation
+        this.management = res.data.management
+        this.owners = res.data.owners
+    }, error => {
+        this.error = 'A trained team of slave churros is fixing this please wait'
+    })
+  }
+}
+</script>
