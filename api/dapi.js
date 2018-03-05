@@ -2,7 +2,8 @@
 const quotes = require('./quotes.js');
 const discord = require('discord.js');
 const client = new discord.Client();
-client.login('NDE5OTI0NDgyNTEwMTU5ODcy.DX3NFQ.Znvv6dEqTCy4tAZk93m-AEI4fcM')
+const config = require('./config.json');
+client.login(config.token)
 
 function get_color(role) {
     switch (role) {
