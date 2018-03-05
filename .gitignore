@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 .idea/
-=======
 .DS_Store
 /dist/
 node_modules/
@@ -16,4 +14,3 @@ yarn-error.log*
 *.ntvs*
 *.njsproj
 *.sln
->>>>>>> vue
