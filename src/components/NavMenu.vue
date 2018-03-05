@@ -45,7 +45,7 @@
                   FAQ
               </router-link>
               <span class="nav-item">
-                      <a class="button is-info is-outlined is-inverted" href="https://www.discord.gg/ssl">
+                      <a class="button is-info is-outlined is-inverted" href="https://invite.sslcommunity.io">
                           <span class="icon is-small">
                               <i class="fa fa-server" aria-hidden="true"></i>
                           </span>

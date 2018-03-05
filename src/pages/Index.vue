@@ -50,7 +50,7 @@
                     <h1 class="title">Join us today!</h1>
                     <h2 class="subtitle">We promise you'll love it ♥</h2>
                 </div><br>
-                <a class="button is-medium is-info" href="https://discord.gg/ssl" target="_blank">Join today!</a>
+                <a class="button is-medium is-info" href="https://invite.sslcommunity.io" target="_blank">Join today!</a>
             </div>
         </section>
     </div>
