@@ -1,1 +1,17 @@
 .idea/
+.DS_Store
+/dist/
+/api/config.json
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/test/unit/coverage/
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

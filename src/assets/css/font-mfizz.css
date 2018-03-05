@@ -15,11 +15,9 @@
 
 @font-face {
   font-family: "FontMfizz";
-  src: url("./font-mfizz.eot");
-  src: url("./font-mfizz.eot?#iefix") format("embedded-opentype"),
-       url("./font-mfizz.woff") format("woff"),
-       url("./font-mfizz.ttf") format("truetype"),
-       url("./font-mfizz.svg#font-mfizz") format("svg");
+  src: url("./font-mfizz.woff") format("woff"),
+       url("./font-mfizz.ttf") format("truetype");
+
   font-weight: normal;
   font-style: normal;
 }
@@ -27,7 +25,6 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: "FontMfizz";
-    src: url("./font-mfizz.svg#font-mfizz") format("svg");
   }
 }
 
