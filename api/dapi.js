@@ -39,7 +39,7 @@ class Member {
         this.url = m.user.avatarURL;
         this.tag = m.highestRole.name;
         this.color = get_color(m.highestRole.name)
-        this.username = user.tag
+        this.username = m.user.tag
         this.quote = null
     }
 }
