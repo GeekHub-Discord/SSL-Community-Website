@@ -6,6 +6,7 @@ const config = require('./config.json');
 client.login(config.token)
 
 function get_color(role) {
+    let r = ''
     switch (role) {
         case 'OVNERS':
             r = 'is-danger';
