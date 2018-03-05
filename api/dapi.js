@@ -39,7 +39,7 @@ class Member {
         this.url = m.user.avatarURL;
         this.tag = m.highestRole.name;
         this.color = get_color(m.highestRole.name)
-        this.username = m.user.username + '#' + m.user.discriminator
+        this.username = user.tag
         this.quote = null
     }
 }
@@ -58,7 +58,7 @@ async function SingleMemberArrayGenerator(members, blacklist) {
     return container
 }
 
-async function MemberArrayGenerator(members, blacklist, callback) {
+async function MemberArrayGenerator(members, blacklist) {
     let tmp = [];
     let container = [];
     for (let i=0; i < members.length; i++) {
@@ -79,34 +79,28 @@ async function MemberArrayGenerator(members, blacklist, callback) {
 
 
 
-async function get_members(roles, callback) {
+async function get_members(roles) {
     let staff = {};
     let blacklist = [];
 
-    let owners_m = roles.find('id', '238273397308522506').members.array();
+    let owners_m = roles.get('238273397308522506').members.array();
     let owners = await SingleMemberArrayGenerator(owners_m, blacklist)
 
-    let management_m = roles.find('id', '241232114350161920').members.array();
+    let management_m = roles.get('241232114350161920').members.array();
     let management = await MemberArrayGenerator(management_m, blacklist)
 
-    let mods_m = roles.find('id', '241232336161734656').members.array();
+    let mods_m = roles.get('241232336161734656').members.array();
     let moderation = await MemberArrayGenerator(mods_m, blacklist)
 
     staff.moderation = moderation;
     staff.management = management;
     staff.owners = owners;
-    callback(staff)
+    return staff
 }
 
-const staff = module.exports = function(callback) {
-    const roles = client.guilds.find('id', '194533269180514305').roles;
-    get_members(roles, async (staff) => {
-        callback(staff)
-    })
-
+const staff = module.exports = async function() {
+    const roles = client.guilds.get('194533269180514305').roles;
+    return await get_members(roles)
 }
 
 
-client.on('ready', () => {
-    staff((staff) => console.log(staff));
-});

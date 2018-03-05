@@ -7,18 +7,15 @@ app.use(bodyParser.urlencoded({extended: false }));
 app.use(bodyParser.json());
 app.use(bodyParser.text());
 
-
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   next();
 });
 
-
-app.get('/get', (req, res, next) => {
-    api(staff => {
-        res.json(staff)
-    })
+app.get('/get', async (req, res, next) => {
+    let staff = await api();
+    res.json(staff)
 })
 
-app.listen('8555')
+app.listen('8555');
